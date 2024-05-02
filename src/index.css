@@ -1,0 +1,38 @@
+:root {
+  /* Global palette */
+
+  --primary-color: hsla(162, 75%, 50%, 0.851);
+  --analogous-color1: hsl(192, 75%, 50%);
+  --analogous-color2: hsl(132, 75%, 50%);
+  --complementary-color: hsl(342, 75%, 50%);
+  --background-color: hsl(0, 0%, 14%);
+
+  /* font-family: Poppins, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body #root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
